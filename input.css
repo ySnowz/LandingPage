@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ECF0F1;
+}
+
+.bgColor{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+
+p,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #2C3E50;
+}
+
+h1,
+h2,
+a,
+span,
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: .05rem;
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.azul {
+    color: #3498DB;
+}
+
+.roxo {
+    color: #8258FA;
+}
+
+.vermelho {
+    color: #E74C3C;
+}
+
+.cinza {
+    color: #2C3E50;
+}
+
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.borda-roxo {
+    border: 1px solid #8258FA;
+}
+
+.destaque {
+    color: #3498DB;
+    background-image: linear-gradient(to right, #3498DB 0%, #8258FA 50%, #E74C3C 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+button.destaqueH:hover {
+    background-image: linear-gradient(to right, #3498DB 0%, #8258FA 50%, #E74C3C 100%);
+    color: #ECF0F1;
+}
+
+.bg-azul {
+    background-color: #2C3E50;
+}
