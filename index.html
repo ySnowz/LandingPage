@@ -15,12 +15,11 @@
 <body class="relative flex flex-col items-center justify-center gap-8">
     <header class="w-full sticky top-[0%] left-[40%] z-50 bgColor px-8 lg:px-14 py-4">
         <nav class="w-full flex flex-row items-center justify-between">
-            <div>
-                <span class="tracking-widest font-medium cinza select-none">CodeGenius</span>
-            </div>
+            <span class="tracking-widest font-medium cinza select-none">CodeGenius</span>
             <ul class="hidden lg:flex flex-row gap-2 px-4 py-3 bg-slate-100 rounded-full drop-shadow-sm"
                 id="navbarLinks">
-                <li><a class="duration-100 ease-in azul bg-white px-4 py-2 rounded-full drop-shadow-sm" href="#">Home</a></li>
+                <li><a class="duration-100 ease-in azul bg-white px-4 py-2 rounded-full drop-shadow-sm"
+                        href="#">Home</a></li>
                 <li><a class="text-slate-400 duration-100 ease-in" href="#aboutUs">About Us</a></li>
                 <li><a class="text-slate-400 duration-100 ease-in" href="#services">Services</a></li>
             </ul>
@@ -34,11 +33,13 @@
         <section class="w-full lg:px-14 mt-[64px] lg:my-[164px] flex flex-col items-center justify-center gap-4"
             id="hero">
             <div class="flex flex-col items-center text-center gap-1 lg:gap-2">
-                <h1 class="capitalize text-[16px] lg:text-[32px] tracking-wider font-semibold cinza">meet <span
-                        class="azul font-semibold tracking-wider">CodeGenius</span></h1>
-                <h2 class="uppercase text-[18px] lg:text-[64px] tracking-wider font-bold destaque">Powerful Web Development
+                <h1 class="capitalize text-[16px] md:text-[24px] lg:text-[32px] tracking-wider font-semibold cinza">meet
+                    <span class="azul font-semibold tracking-wider">CodeGenius</span></h1>
+                <h2 class="uppercase text-[18px] md:text-[32px] lg:text-[48px] xl:text-[64px] tracking-wider font-bold destaque">
+                    Powerful Web Development
                 </h2>
-                <h3 class="capitalize text-[12px] lg:text-xl font-normal">Here we made a Full-Stack website for your
+                <h3 class="capitalize text-[12px] md:text-[18px] lg:text-xl font-normal">Here we made a Full-Stack
+                    website for your
                     business</h3>
             </div>
             <button
@@ -48,21 +49,24 @@
         </section>
         <!-- AboutUs -->
         <section id="aboutUs" class="w-full flex flex-col px-4 lg:px-14 gap-2">
-            <h1 class="text-2xl lg:text-[64px] vermelho font-semibold mb-8">About Us</h1>
-            <div class="w-full flex flex-col lg:flex-row items-center justify-between">
+            <h1 class="text-2xl md:text-4xl lg:text-[64px] vermelho font-semibold mb-8">About Us</h1>
+            <div
+                class="w-full flex flex-col items-start justify-start md:flex-row md:items-center md:justify-between lg:gap-4 xl:gap-2">
                 <figure class="lg:w-[50%]">
                     <img src="./src/aboutUs.svg"
-                        class="w-[320px] lg:w-[650px] lg:h-[500px] object-cover rounded drop-shadow-sm borda-roxo" alt="working">
+                        class="w-[320px] md:w-full lg:w-[450px] lg:h-[500px] xl:w-[650px] xl:h-[500px] object-cover rounded drop-shadow-sm borda-roxo"
+                        alt="working">
                 </figure>
                 <div class="lg:w-[50%] flex flex-col items-start justify-start gap-2 mt-2 lg:mt-0">
                     <h2 class="capitalize font-medium tracking-wider text-2xl lg:text-4xl azul">Our Company</h2>
-                    <p class="text[14px] lg:text-[24px] font-normal max-w-[600px]">
+                    <p class="text[14px] lg:text-[20px] xl:text-[24px] w-[320px] md:w-[400px] lg:w-[450px] xl:w-[600px] font-normal ">
                         At CodeGenius, we are more than a website development company; we are digital storytellers.
                         Since our founding, we have sought to transcend the ordinary, transforming ideas into
                         extraordinary online experiences. Our passion for innovation and commitment to excellence are
                         reflected in every line of code we write and every project we deliver.
                     </p>
-                    <span class="text-[12px] vermelho font-semibold max-w-[500px]">Choosing CodeGenius is choosing not just a
+                    <span class="text-[12px] vermelho font-semibold w-[320px] md:w-[400px] xl:w-[550px] ">Choosing CodeGenius is choosing not
+                        just a
                         website developer, but a partner dedicated to transforming your online presence into something
                         truly extraordinary.
                         We are ready to tell your digital story.
@@ -72,11 +76,12 @@
         </section>
         <!-- YouWillHave -->
         <section class="w-full flex flex-col items-center justify-center px-4 lg:px-14 gap-2">
-            <h2 class="text-xl lg:text-4xl uppercase destaque">With us you will have</h2>
+            <h2 class="text-xl md:text-2xl lg:text-4xl uppercase destaque">With us you will have</h2>
             <div class="w-full py-4 flex flex-row flex-wrap items-center justify-center gap-2">
                 <div
                     class="flex p-4 flex-col items-start justify-start glassmorphism duration-100 ease-in hover:scale-105 hover:drop-shadow-md w-[320px] h-[150px] lg:w-[350px] lg:h-[250px]">
-                    <h3 class="roxo font-semibold capitalize tracking-wide text-[16px] lg:text-[20px]">Effective Development
+                    <h3 class="roxo font-semibold capitalize tracking-wide text-[16px] lg:text-[20px]">Effective
+                        Development
                     </h3>
                     <p class="text-[14px] lg:text-[16px] font-normal">We use the latest technologies and the best
                         development practices to ensure fast, secure and fully functional websites.
@@ -86,19 +91,22 @@
                     class="flex p-4 flex-col items-start justify-start glassmorphism duration-100 ease-in hover:scale-105 hover:drop-shadow-md w-[320px] h-[150px] lg:w-[350px] lg:h-[250px]">
                     <h3 class="roxo font-semibold capitalize tracking-wide text-[16px] lg:text-[20px]">Improved UX
                     </h3>
-                    <p class="text-[14px] lg:text-[16px] font-normal">We put the user at the center of our design, creating intuitive
+                    <p class="text-[14px] lg:text-[16px] font-normal">We put the user at the center of our design,
+                        creating intuitive
                         interfaces that captivate and engage visitors.</p>
                 </div>
                 <div
                     class="flex p-4 flex-col items-start justify-start glassmorphism duration-100 ease-in hover:scale-105 hover:drop-shadow-md w-[320px] h-[150px] lg:w-[350px] lg:h-[250px]">
-                    <h3 class="roxo font-semibold capitalize tracking-wide text-[16px] lg:text-[20px]">Collaborative Partnership
+                    <h3 class="roxo font-semibold capitalize tracking-wide text-[16px] lg:text-[20px]">Collaborative
+                        Partnership
                     </h3>
                     <p class="text-[14px] lg:text-[16px] font-normal">We work closely with our
                         customers, understanding their visions and transforming them into digital reality.</p>
                 </div>
                 <div
                     class="flex p-4 flex-col items-start justify-start glassmorphism duration-100 ease-in hover:scale-105 hover:drop-shadow-md w-[320px] h-[150px] lg:w-[350px] lg:h-[250px]">
-                    <h3 class="roxo font-semibold capitalize tracking-wide text-[16px] lg:text-[20px]">Efficient Code and
+                    <h3 class="roxo font-semibold capitalize tracking-wide text-[16px] lg:text-[20px]">Efficient Code
+                        and
                         Sustainable</h3>
                     <p class="text-[14px] lg:text-[16px] font-normal">We develop efficient codes that not only
                         offer exceptional performance, but also consume resources responsibly.</p>
@@ -107,7 +115,7 @@
         </section>
         <!-- Services -->
         <section id="services" class="w-full px-4 lg:px-14 flex flex-col items-start justify-start gap-4">
-            <h1 class="text-2xl lg:text-[64px] vermelho font-semibold mb-8">Our Services</h1>
+            <h1 class="text-2xl md:text-4xl lg:text-[64px] vermelho font-semibold mb-8">Our Services</h1>
             <!-- Box -->
             <div class="flex flex-row flex-wrap justify-center items-center gap-4">
                 <!-- websites -->
@@ -120,7 +128,8 @@
                                 alt="webSite">
                         </figure>
                         <div class="w-full flex flex-col items-start justify-start gap-4">
-                            <p class="w-[300px] lg:w-[400px] text-[12px] lg:text-[16px] text-wrap">Our team of experienced web
+                            <p class="w-[300px] lg:w-[400px] text-[12px] lg:text-[16px] text-wrap">Our team of
+                                experienced web
                                 designers
                                 and developers will work with you to create a website
                                 that is both visually appealing and effective.We will use our expertise to understand
@@ -143,7 +152,8 @@
                                 alt="webSite">
                         </figure>
                         <div class="w-full flex flex-col items-start justify-start gap-4">
-                            <p class="w-[300px] lg:w-[400px] text-[12px] lg:text-[16px] text-wrap">Our team of experienced web
+                            <p class="w-[300px] lg:w-[400px] text-[12px] lg:text-[16px] text-wrap">Our team of
+                                experienced web
                                 developers will work with you to create a custom web application that meets your
                                 specific needs. We will use our expertise to understand your requirements and create an
                                 application that is both functional and user-friendly.
@@ -161,23 +171,29 @@
         <section id="banner" class="w-full h-[450px] flex items-center justify-center px-4 lg:px-14">
             <div class="w-full bg-blue-600 p-4 rounded-xl flex flex-col items-center justify-center drop-shadow gap-2">
                 <h1 class="text-xl lg:text-2xl tracking-wider font-bold text-slate-50">CodeGenius</h1>
-                <h2 class="text-sm lg:text-2lg capitalize font-semibold text-white">turning your idea into <span class="font-semibold">reality</span></h2>
+                <h2 class="text-sm lg:text-2lg capitalize font-semibold text-white">turning your idea into <span
+                        class="font-semibold">reality</span></h2>
                 <h3 class="text-[14px] lg:text-sm text-slate-50/50 capitalize">Send us an email</h3>
-                <button class="border rounded-full border-white px-4 py-2 text-white duration-100 ease-in hover:scale-105 active:scale-95"><a href="mailto:teste@hotmail.com">Send Now</a></button>
+                <button
+                    class="border rounded-full border-white px-4 py-2 text-white duration-100 ease-in hover:scale-105 active:scale-95"><a
+                        href="mailto:teste@hotmail.com">Send Now</a></button>
             </div>
         </section>
     </main>
     <footer class="w-full p-8 lg:px-14 bg-neutral-100 flex flex-col items-start justify-start gap-8">
         <div class="w-full flex flex-col gap-4 items-start justify-start py-2">
-            <h1 class="capitalize font-semibold text-lg lg:text-4xl roxo tracking-widest">We are waiting for you</h1>
-            <hr class="h-[2px] rounded-full w-full bg-neutral-200/50"/>
+            <h1 class="capitalize font-semibold text-lg md:text-4xl roxo tracking-widest">We are waiting for you</h1>
+            <hr class="h-[2px] rounded-full w-full bg-neutral-200/50" />
         </div>
         <div class="w-full flex items-start justify-start gap-2">
             <div class="flex flex-col items-start justify-start gap-1">
                 <h3 class="font-semibold text-[16px] lg:text-lg tracking-wider">Explore</h3>
-                <a class="text-[14px] lg:text-[16px] roboto cinza duration-100 ease-in hover:text-indigo-500" href="#">Home</a>
-                <a class="text-[14px] lg:text-[16px] roboto cinza duration-100 ease-in hover:text-indigo-500" href="#AboutUs">About Us</a>
-                <a class="text-[14px] lg:text-[16px] roboto cinza duration-100 ease-in hover:text-indigo-500" href="#Services">Services</a>
+                <a class="text-[14px] lg:text-[16px] roboto cinza duration-100 ease-in hover:text-indigo-500"
+                    href="#">Home</a>
+                <a class="text-[14px] lg:text-[16px] roboto cinza duration-100 ease-in hover:text-indigo-500"
+                    href="#AboutUs">About Us</a>
+                <a class="text-[14px] lg:text-[16px] roboto cinza duration-100 ease-in hover:text-indigo-500"
+                    href="#Services">Services</a>
             </div>
         </div>
         <p class="destaque font-bold text-[12px]">© 2024 CodeGenius. All rights reserved.</p>
